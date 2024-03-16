@@ -5,7 +5,6 @@ class TestDuplicateOdds(unittest.TestCase):
     
     def test_index_power(self):
 
-        # list with odd numbers and zero
         self.assertEqual(index_power([1, 2, 3, 4], 2), 9)
         self.assertEqual(index_power([1, 3, 10, 100], 3), 1000000)
         self.assertEqual(index_power([0, 1], 0), 1)

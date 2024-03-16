@@ -5,7 +5,6 @@ class TestDuplicateOdds(unittest.TestCase):
     
     def test_replace_last(self):
 
-        # list with odd numbers and zero
         self.assertEqual(replace_last([2, 3, 4, 1]), [1, 2, 3, 4])
         self.assertEqual(replace_last([1, 2, 3, 4]), [4, 1, 2, 3])
         self.assertEqual(replace_last([1]), [1])

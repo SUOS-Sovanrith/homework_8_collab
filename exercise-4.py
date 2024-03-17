@@ -26,7 +26,7 @@ def chunking_by(numbers, chunck):
 
     else:
 
-        return result       # if false, we show the result
+        return result       # if not, we show the result
 
     return result
 
